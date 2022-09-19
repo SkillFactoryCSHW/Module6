@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task6.2.2", "Task6.2.2\Task6.2.2.csproj", "{52ADA81A-28A0-4874-AB10-81385C3D427C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task6.2.2", "Task6.2.2\Task6.2.2.csproj", "{52ADA81A-28A0-4874-AB10-81385C3D427C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task6.2.8", "Task6.2.8\Task6.2.8.csproj", "{449F9904-2F58-4D4E-A167-270C6CB91DCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task6.2.8", "Task6.2.8\Task6.2.8.csproj", "{449F9904-2F58-4D4E-A167-270C6CB91DCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task6.3.1", "Task6.3.1\Task6.3.1.csproj", "{9AB59FA6-F33B-4825-A347-0ACED5FD3C09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task6.3.1", "Task6.3.1\Task6.3.1.csproj", "{9AB59FA6-F33B-4825-A347-0ACED5FD3C09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task6.5.2", "Task6.5.2\Task6.5.2.csproj", "{2EB7C5A8-E01A-4FBE-A0D3-187017AFFD7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task6.5.2", "Task6.5.2\Task6.5.2.csproj", "{2EB7C5A8-E01A-4FBE-A0D3-187017AFFD7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task6.6.1", "Task6.6.1\Task6.6.1.csproj", "{C2ED12CA-9F7D-4AFE-9237-9271EA4D9A31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task6.6.1", "Task6.6.1\Task6.6.1.csproj", "{C2ED12CA-9F7D-4AFE-9237-9271EA4D9A31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 6.6.2", "Task 6.6.2\Task 6.6.2.csproj", "{1D81A64E-D095-4980-9D1D-A98D6056F1B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task 6.6.2", "Task 6.6.2\Task 6.6.2.csproj", "{1D81A64E-D095-4980-9D1D-A98D6056F1B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task6.3.2", "Task6.3.2\Task6.3.2.csproj", "{C46012F1-4299-42AE-8DB1-F749474D4580}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{1D81A64E-D095-4980-9D1D-A98D6056F1B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D81A64E-D095-4980-9D1D-A98D6056F1B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D81A64E-D095-4980-9D1D-A98D6056F1B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C46012F1-4299-42AE-8DB1-F749474D4580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C46012F1-4299-42AE-8DB1-F749474D4580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C46012F1-4299-42AE-8DB1-F749474D4580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C46012F1-4299-42AE-8DB1-F749474D4580}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
