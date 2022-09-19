@@ -19,7 +19,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        var department = GetCurrentDepartment();
+        var department = GetCurrentDeprtment();
         if (department?.Company?.Type == "Банк" && department?.City?.Name == "Санкт-Петербург")
         {
             Console.WriteLine("У банка {0} есть отделение в Санкт-Петербурге", department?.Company?.Name ?? "Неизвестная компания");
@@ -28,9 +28,12 @@ class Program
 
     static Department GetCurrentDeprtment()
     {
-        if (department?.Company?.Type == "Банк" && department?.City?.Name == "Санкт-Петербург")
-        {
-            Console.WriteLine("У банка {0} есть отделение в Санкт-Петербурге", department?.Company?.Name ?? "Неизвестная компания");
-        }
+        Department department = new Department();
+        department.City.Name = "Санкт-Петербург";
+        department.Company.Type = "Банк";
+        department.Company.Name = "ВТБ";
+        
+        
+        return department;
     }
 }
