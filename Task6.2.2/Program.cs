@@ -1,19 +1,20 @@
 ﻿class Pen
 {
-	public string color;
-	public int cost;
+    public string color;
+    public int cost;
 
-	public Pen()
-	{
-		color = "Черный";
-		cost = 1;
-	}
-
-	public Pen(string penColor, int penCost)
+    public Pen()
     {
-		color = penColor;
-		cost = penCost;
+        color = "Black";
+        cost = 100;
+    }
+
+    public Pen(string penColor, int penCost)
+    {
+        color=penColor;
+        cost = penCost;
     }
 }
+
 
 
