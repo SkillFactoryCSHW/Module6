@@ -1,7 +1,7 @@
 ﻿class Company
 {
-    public string Type = "Банк";
-    public string Name = "sdf";
+    public string Type;
+    public string Name;
 }
 
 class Department
@@ -12,7 +12,7 @@ class Department
 
 class City
 {
-    public string Name = "Санкт-Петербург";
+    public string Name;
 }
 
 class Program
@@ -22,17 +22,15 @@ class Program
         var department = GetCurrentDepartment();
         if (department?.Company?.Type == "Банк" && department?.City?.Name == "Санкт-Петербург")
         {
-            Console.WriteLine("У банка {0} есть отделение в Санкт-Петербурге",
-                department?.Company?.Name ?? "Неизвестная компания");
+            Console.WriteLine("У банка {0} есть отделение в Санкт-Петербурге", department?.Company?.Name ?? "Неизвестная компания");
         }
     }
 
-    static Department GetCurrentDepartment()
+    static Department GetCurrentDeprtment()
     {
-        Department department = new Department();
-        department.Company.Type = "Банк";
-        department.Company.Name = "123";
-        department.City.Name = "Санкт-Петербург";
-        return department;
+        if (department?.Company?.Type == "Банк" && department?.City?.Name == "Санкт-Петербург")
+        {
+            Console.WriteLine("У банка {0} есть отделение в Санкт-Петербурге", department?.Company?.Name ?? "Неизвестная компания");
+        }
     }
 }
