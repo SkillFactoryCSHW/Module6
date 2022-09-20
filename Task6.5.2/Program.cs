@@ -1,40 +1,47 @@
-﻿class Circle
+﻿class Triangle
 {
-	public double radius;
+    public double sideA;
+    public double sideB;
+    public double sideC;
 
-	public double Square()
-	{
-	}
+    public double AreaCalculate()
+    {
+        return sideA * sideB * sideC;
+    }
 
-	public double Length()
-	{
-	}
+    public double LengthCalculate()
+    {
+        return sideA + sideB + sideC;
+    }
 }
 
-class Triangle
+class Circle
 {
-	public int a;
-	public int b;
-	public int c;
+    public double radius;
+    public const double pi = 3.14;
 
-	public double Square()
-	{
-	}
+    public double AreaCalculate()
+    {
+        return radius * Math.Pow(pi, 2);
+    }
 
-	public double Perimeter()
-	{
-	}
+    public double LengthCalculate()
+    {
+        return 2 * pi * radius;
+    }
 }
 
 class Square
 {
-	public int side;
+    public double side;
 
-	public double Square()
-	{
-	}
+    public double AreaCalculate()
+    {
+        return Math.Pow(side, 2);
+    }
 
-	public double Perimeter()
-	{
-	}
+    public double LengthCalculate()
+    {
+        return 4 * side;
+    }
 }
