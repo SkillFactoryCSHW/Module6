@@ -1,46 +1,64 @@
 ﻿class User
 {
-	private string login;
+    private int age;
+    private string login;
+    private string email;
 
-	public string Login
-	{
-		get
-		{
-			return login;
-		}
+    public int Age
+    {
+        get
+        {
+            return age;
+        }
+        set
+        {
+            if (value < 18)
+            {
+                Console.WriteLine("Age > 18");
+            }
+            else
+            {
+                age = value;
+            }
+        }
 
-		set
-		{
-			if (value.Length < 3)
-			{
-				Console.WriteLine("Логин должен быть длиной от 3 символов");
-			}
-			else
-			{
-				login = value;
-			}
-		}
-	}
+    }
 
-	private string email;
+    public string Login 
+    {
+        get
+        {
+            return login;
+        }
+        set
+        {
+            if(value.Length < 3)
+            {
+                Console.WriteLine("Login > 3");
+            }
+            else
+            {
+                login = value;
+            }
+        }
+    }
 
-	public string Email
-	{
-		get
-		{
-			return email;
-		}
-
-		set
-		{
-			if (!value.Contains('@'))
-			{
-				Console.WriteLine("Неверный формат адреса электронной почты");
-			}
-			else
-			{
-				email = value;
-			}
-		}
-	}
+    public string MyProperty
+    {
+        get
+        {
+            return email;
+        }
+        set
+        {
+            if (value.Contains('@'))
+            {
+                value = email;
+            }
+            else
+            {
+                Console.WriteLine("Need @");
+            }
+        }
+    }
 }
